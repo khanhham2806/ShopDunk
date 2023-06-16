@@ -1,0 +1,71 @@
+body{
+
+    nav{
+        background: #515154 !important;
+        .navbar-collapse{
+            justify-content: space-between;
+            ul{
+                li{
+                    a{
+
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    main{
+        section{
+            margin-top: 20px;
+            aside{
+                ul{
+                    li{
+                        list-style: none;
+                        a{
+                            color: black;
+                        }
+                    }
+                }
+            }
+            div{
+                margin-top: 20px;
+               .form{
+                    input{ 
+                        padding:0 10px;
+                        width: 500px;
+                        height: 30px;
+                        outline: none;
+                        border-radius: 4px ;
+                      }
+                      button{
+                        height: 30px;
+                        padding: 0 10px;
+                        box-sizing: border-box;
+                        outline: none;
+                        border: none;
+                        border-radius: 4px;
+                        background-color:aquamarine
+                      }
+               }
+               .table{
+                    th{
+                        padding:  10px 20px;
+                    }
+                    td{
+                        text-align: center;
+                    }
+                    .btn{
+                        padding: 0 10px;
+                    }
+                    .btn-edit{
+                        background-color: chartreuse;
+                    }
+                    .btn-delete{
+                        background-color: rgb(221, 53, 86);
+                    }
+                    
+               }
+            }
+        }
+    }
+}
